@@ -1,0 +1,8 @@
+Loan Approval Prediction
+
+Algorithm / Model Used :Support Vector Machine (SVM)
+
+Train Accuracy: 0.80   
+Test Accuracy: 0.82
+
+

@@ -1,0 +1,7 @@
+Gender,Married,Education,Self_Employed,Credit_History,Property_Area,Income,Application_Status
+Male,Yes,Graduate,Yes,1,Urban,medium,Y
+Male,Yes,Graduate,No,0,Semiurban,low,N
+Female,No,Not Graduate,No,1,Semiurban,medium,Y
+Female,No,Not Graduate,No,0,Urban,low,N
+Female,No,Not Graduate,Yes,1,Semiurban,high,Y
+Male,Yes,Not Graduate,No,0,Rural,low,N

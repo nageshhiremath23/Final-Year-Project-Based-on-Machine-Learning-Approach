@@ -1,0 +1,512 @@
+Id,Gender,Married,Dependents,Education,Self_Employed,Credit_History,Property_Area,Income,Application_Status
+1,Male,No,0,Graduate,No,1,Urban,medium,Y
+2,Male,Yes,1,Graduate,No,1,Rural,medium,N
+3,Male,Yes,0,Graduate,Yes,1,Urban,low,Y
+4,Male,Yes,0,Not Graduate,No,1,Urban,low,Y
+5,Male,No,0,Graduate,No,1,Urban,medium,Y
+6,Male,Yes,2,Graduate,Yes,1,Urban,medium,Y
+7,Male,Yes,0,Not Graduate,No,1,Urban,low,Y
+8,Male,Yes,3+,Graduate,No,0,Semiurban,low,N
+9,Male,Yes,2,Graduate,No,1,Urban,medium,Y
+10,Male,Yes,1,Graduate,No,1,Semiurban,high,N
+11,Male,Yes,2,Graduate,No,1,Urban,low,Y
+12,Male,Yes,2,Graduate,No,1,Urban,low,Y
+13,Male,No,0,Graduate,No,1,Rural,low,N
+14,Male,Yes,2,Graduate,No,1,Urban,low,Y
+15,Male,No,0,Graduate,No,1,Urban,medium,Y
+16,Female,No,0,Graduate,No,0,Urban,low,N
+17,Male,Yes,0,Not Graduate,No,1,Rural,medium,N
+18,Male,Yes,0,Not Graduate,No,0,Urban,medium,N
+19,Male,Yes,1,Graduate,No,1,Urban,medium,Y
+20,Male,Yes,0,Not Graduate,No,0,Semiurban,low,N
+21,Male,Yes,0,Graduate,Yes,1,Semiurban,medium,Y
+22,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+23,Male,Yes,2,Not Graduate,No,1,Urban,medium,Y
+24,Male,No,0,Not Graduate,No,1,Urban,low,N
+25,Male,No,0,Graduate,No,1,Urban,low,N
+26,Male,No,1,Graduate,Yes,1,Rural,medium,N
+27,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+28,Male,No,3+,Graduate,No,1,Rural,high,N
+29,Male,Yes,0,Graduate,No,1,Urban,low,Y
+30,Male,Yes,0,Graduate,No,0,Urban,low,N
+31,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+32,Male,No,0,Graduate,No,1,Urban,medium,Y
+33,Male,No,0,Not Graduate,No,1,Semiurban,low,Y
+34,Male,No,0,Graduate,No,1,Urban,low,N
+35,Male,No,0,Graduate,No,1,Urban,low,Y
+36,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+37,Male,Yes,0,Not Graduate,Yes,1,Urban,medium,Y
+38,Female,No,0,Graduate,No,1,Urban,low,Y
+39,Male,Yes,1,Graduate,No,1,Urban,medium,Y
+40,Male,Yes,0,Graduate,No,1,Urban,medium,Y
+41,Female,Yes,0,Graduate,No,0,Urban,low,N
+42,Female,No,0,Graduate,No,1,Semiurban,medium,Y
+43,Female,Yes,0,Not Graduate,No,1,Semiurban,low,Y
+44,Female,No,0,Graduate,No,1,Semiurban,low,Y
+45,Female,No,0,Graduate,No,1,Semiurban,medium,N
+46,Male,Yes,2,Graduate,No,1,Urban,medium,N
+47,Female,Yes,1,Graduate,Yes,0,Urban,high,N
+48,Male,Yes,2,Graduate,No,1,Semiurban,low,Y
+49,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+50,Male,Yes,0,Graduate,No,1,Rural,low,N
+51,Male,Yes,1,Graduate,No,1,Urban,medium,Y
+52,Male,Yes,2,Not Graduate,No,1,Urban,low,Y
+53,Male,Yes,0,Graduate,No,1,Urban,low,Y
+54,Male,Yes,3+,Graduate,No,1,Urban,low,Y
+55,Male,Yes,0,Not Graduate,Yes,0,Rural,low,N
+56,Male,Yes,1,Graduate,No,0,Rural,medium,N
+57,Female,No,0,Graduate,No,0,Semiurban,medium,N
+58,Male,Yes,0,Graduate,No,1,Semiurban,medium,N
+59,Male,No,0,Not Graduate,No,0,Urban,low,N
+60,Male,Yes,1,Graduate,No,1,Urban,high,Y
+61,Male,Yes,3+,Not Graduate,Yes,1,Urban,medium,Y
+62,Female,No,0,Graduate,No,0,Semiurban,medium,N
+63,Male,Yes,0,Graduate,No,1,Urban,low,Y
+64,Male,Yes,2,Not Graduate,Yes,1,Semiurban,low,Y
+65,Male,No,0,Graduate,No,1,Semiurban,low,Y
+66,Male,Yes,3+,Not Graduate,No,0,Semiurban,medium,N
+67,Male,Yes,3+,Graduate,Yes,1,Semiurban,medium,Y
+68,Male,No,0,Graduate,No,1,Urban,low,N
+69,Male,No,0,Graduate,No,1,Urban,low,N
+70,Male,Yes,1,Graduate,Yes,1,Urban,low,N
+71,Male,Yes,3+,Graduate,No,0,Semiurban,low,N
+72,Female,No,0,Graduate,No,1,Semiurban,low,Y
+73,Male,Yes,1,Graduate,Yes,1,Semiurban,low,Y
+74,Female,Yes,2,Graduate,No,1,Urban,low,N
+75,Male,Yes,1,Graduate,No,1,Urban,low,Y
+76,Male,No,0,Graduate,No,1,Semiurban,low,Y
+77,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+78,Male,No,0,Graduate,No,1,Urban,medium,Y
+79,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+80,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+81,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+82,Male,Yes,2,Not Graduate,No,1,Urban,low,Y
+83,Male,No,0,Graduate,No,1,Semiurban,medium,Y
+84,Male,No,0,Not Graduate,No,1,Semiurban,low,Y
+85,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+86,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+87,Male,Yes,0,Not Graduate,No,1,Semiurban,medium,Y
+88,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+89,Male,Yes,2,Not Graduate,No,1,Urban,medium,Y
+90,Male,No,0,Graduate,No,1,Semiurban,medium,Y
+91,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+92,Male,Yes,1,Graduate,No,1,Urban,low,Y
+93,Male,Yes,2,Graduate,No,1,Urban,high,Y
+94,Male,Yes,2,Graduate,No,0,Urban,low,N
+95,Male,Yes,3+,Not Graduate,No,1,Semiurban,low,Y
+96,Male,No,0,Graduate,No,1,Urban,medium,Y
+97,Male,Yes,0,Not Graduate,No,0,Rural,low,N
+98,Female,No,1,Graduate,Yes,1,Semiurban,medium,Y
+99,Male,Yes,1,Graduate,No,1,Rural,high,Y
+100,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+101,Male,Yes,0,Graduate,No,1,Rural,medium,N
+102,Female,No,0,Graduate,No,1,Urban,high,Y
+103,Female,No,0,Graduate,No,1,Semiurban,medium,Y
+104,Female,No,0,Graduate,No,0,Semiurban,low,Y
+105,Male,Yes,2,Graduate,No,1,Semiurban,low,Y
+106,Male,Yes,0,Not Graduate,No,1,Rural,medium,Y
+107,Male,No,0,Graduate,No,1,Rural,low,Y
+108,Male,Yes,1,Graduate,Yes,0,Urban,high,N
+109,Male,No,0,Graduate,No,1,Urban,low,Y
+110,Male,No,0,Graduate,No,1,Semiurban,low,Y
+111,Male,Yes,0,Graduate,Yes,1,Semiurban,low,Y
+112,Male,No,0,Graduate,No,1,Semiurban,medium,Y
+113,Male,Yes,3+,Graduate,No,1,Semiurban,medium,N
+114,Female,Yes,0,Graduate,No,1,Rural,medium,N
+115,Male,Yes,2,Graduate,Yes,1,Urban,low,Y
+116,Male,No,0,Graduate,No,0,Semiurban,high,N
+117,Male,Yes,2,Not Graduate,No,1,Rural,medium,N
+118,Male,Yes,2,Graduate,No,1,Rural,medium,N
+119,Male,No,0,Graduate,No,1,Urban,medium,Y
+120,Male,No,0,Graduate,Yes,1,Semiurban,medium,Y
+121,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+122,Male,Yes,2,Graduate,No,1,Urban,high,Y
+123,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+124,Female,Yes,2,Graduate,No,1,Urban,high,Y
+125,Male,Yes,1,Graduate,No,1,Urban,low,Y
+126,Female,No,0,Graduate,No,1,Rural,high,N
+127,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+128,Male,No,0,Graduate,No,0,Rural,medium,N
+129,Male,Yes,0,Graduate,Yes,1,Rural,low,Y
+130,Male,No,0,Graduate,No,1,Urban,medium,N
+131,Male,Yes,2,Not Graduate,No,1,Rural,low,N
+132,Male,No,0,Graduate,No,1,Urban,low,Y
+133,Male,Yes,3+,Graduate,No,0,Semiurban,high,Y
+134,Male,Yes,1,Graduate,No,1,Urban,medium,Y
+135,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+136,Male,Yes,0,Not Graduate,No,1,Semiurban,low,Y
+137,Male,Yes,0,Graduate,No,1,Urban,medium,N
+138,Male,Yes,1,Graduate,No,0,Semiurban,low,N
+139,Male,Yes,2,Graduate,No,1,Rural,medium,Y
+140,Male,Yes,0,Graduate,No,1,Urban,medium,Y
+141,Male,Yes,0,Graduate,No,1,Rural,low,Y
+142,Female,Yes,0,Graduate,No,1,Rural,medium,N
+143,Male,Yes,0,Graduate,No,1,Rural,low,Y
+144,Male,No,0,Graduate,No,0,Semiurban,low,N
+145,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+146,Male,Yes,3+,Not Graduate,No,1,Rural,low,N
+147,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+148,Male,Yes,0,Not Graduate,Yes,1,Semiurban,medium,N
+149,Male,Yes,0,Graduate,No,1,Rural,low,Y
+150,Male,Yes,2,Graduate,No,1,Rural,low,Y
+151,Male,Yes,3+,Graduate,No,0,Semiurban,medium,N
+152,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+153,Male,No,0,Not Graduate,No,0,Urban,low,N
+154,Male,Yes,1,Graduate,No,0,Urban,medium,N
+155,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+156,Male,Yes,1,Graduate,No,1,Semiurban,high,N
+157,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+158,Male,Yes,0,Graduate,Yes,1,Semiurban,high,Y
+159,Male,Yes,1,Graduate,Yes,0,Rural,low,N
+160,Male,Yes,0,Graduate,No,1,Rural,medium,Y
+161,Male,No,0,Not Graduate,No,1,Rural,medium,Y
+162,Male,No,0,Graduate,No,1,Semiurban,high,N
+163,Male,Yes,0,Not Graduate,No,1,Urban,medium,N
+164,Male,No,0,Graduate,No,1,Semiurban,low,Y
+165,Male,No,0,Graduate,No,1,Rural,medium,Y
+166,Male,Yes,1,Graduate,No,1,Semiurban,low,N
+167,Male,No,0,Graduate,No,1,Rural,medium,Y
+168,Female,No,0,Not Graduate,No,1,Urban,low,Y
+169,Male,No,0,Graduate,Yes,1,Urban,high,N
+170,Male,Yes,1,Not Graduate,No,1,Semiurban,low,Y
+171,Male,No,2,Graduate,No,0,Semiurban,medium,Y
+172,Male,Yes,3+,Not Graduate,No,1,Urban,low,N
+173,Male,Yes,1,Not Graduate,No,1,Urban,low,Y
+174,Male,Yes,2,Not Graduate,No,1,Semiurban,low,Y
+175,Female,No,0,Not Graduate,No,1,Semiurban,medium,Y
+176,Female,No,0,Graduate,No,1,Urban,low,Y
+177,Male,No,0,Not Graduate,No,1,Rural,low,Y
+178,Male,No,0,Graduate,No,1,Urban,low,Y
+179,Male,No,0,Graduate,No,1,Semiurban,low,N
+180,Female,No,0,Graduate,No,1,Semiurban,high,N
+181,Male,Yes,3+,Graduate,No,0,Semiurban,low,N
+182,Male,Yes,1,Graduate,Yes,1,Urban,medium,Y
+183,Male,Yes,3+,Not Graduate,Yes,1,Rural,medium,Y
+184,Male,Yes,0,Graduate,No,1,Urban,low,Y
+185,Male,Yes,3+,Not Graduate,No,1,Semiurban,low,Y
+186,Male,Yes,0,Graduate,No,1,Rural,low,N
+187,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+188,Male,Yes,0,Graduate,No,0,Urban,low,N
+189,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+190,Male,No,0,Graduate,No,1,Semiurban,low,Y
+191,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+192,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+193,Male,Yes,0,Graduate,No,1,Rural,low,N
+194,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+195,Male,No,0,Graduate,Yes,1,Rural,medium,Y
+196,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+197,Male,No,0,Not Graduate,No,1,Rural,low,Y
+198,Female,No,0,Graduate,No,1,Semiurban,medium,Y
+199,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+200,Male,Yes,1,Graduate,No,1,Rural,medium,Y
+201,Female,No,1,Graduate,No,1,Rural,low,Y
+202,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+203,Male,Yes,2,Graduate,No,1,Rural,medium,Y
+204,Male,Yes,1,Not Graduate,No,1,Urban,low,N
+205,Male,No,0,Graduate,No,1,Urban,low,Y
+206,Male,Yes,2,Graduate,Yes,1,Rural,medium,Y
+207,Male,Yes,0,Not Graduate,No,1,Semiurban,low,Y
+208,Male,No,0,Graduate,Yes,1,Urban,medium,N
+209,Male,Yes,2,Graduate,No,1,Urban,medium,Y
+210,Male,Yes,1,Not Graduate,No,1,Urban,medium,Y
+211,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+212,Male,Yes,0,Graduate,No,1,Urban,low,Y
+213,Male,Yes,0,Not Graduate,No,0,Semiurban,low,N
+214,Female,No,2,Graduate,No,1,Urban,low,N
+215,Male,No,0,Not Graduate,Yes,1,Rural,low,Y
+216,Male,Yes,1,Not Graduate,No,1,Semiurban,low,Y
+217,Male,No,0,Graduate,Yes,0,Urban,high,N
+218,Female,No,3+,Graduate,No,1,Rural,low,Y
+219,Male,No,0,Not Graduate,No,0,Rural,medium,N
+220,Male,Yes,3+,Graduate,No,1,Urban,medium,N
+221,Male,Yes,0,Graduate,No,1,Rural,high,N
+222,Male,No,0,Graduate,No,1,Semiurban,low,Y
+223,Female,No,1,Graduate,No,1,Semiurban,low,N
+224,Female,No,0,Graduate,No,1,Rural,medium,Y
+225,Male,No,0,Graduate,Yes,1,Semiurban,medium,Y
+226,Male,No,0,Graduate,No,1,Rural,medium,Y
+227,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+228,Male,Yes,3+,Graduate,No,0,Urban,medium,Y
+229,Female,No,1,Graduate,No,1,Urban,low,Y
+230,Female,No,0,Graduate,No,1,Urban,low,Y
+231,Male,Yes,0,Graduate,No,1,Urban,high,Y
+232,Male,No,0,Graduate,No,1,Rural,low,Y
+233,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+234,Male,Yes,2,Graduate,No,1,Semiurban,low,Y
+235,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+236,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+237,Male,Yes,0,Graduate,No,1,Urban,low,Y
+238,Male,Yes,0,Graduate,No,1,Semiurban,high,Y
+239,Male,No,1,Not Graduate,Yes,0,Urban,medium,N
+240,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+241,Male,Yes,2,Graduate,No,1,Urban,low,Y
+242,Female,No,0,Graduate,No,1,Urban,low,Y
+243,Male,Yes,0,Graduate,No,1,Rural,high,N
+244,Male,No,0,Graduate,No,1,Rural,low,Y
+245,Female,No,0,Graduate,Yes,1,Semiurban,low,N
+246,Male,Yes,0,Graduate,No,1,Rural,low,Y
+247,Female,No,0,Graduate,No,1,Semiurban,medium,Y
+248,Male,No,0,Graduate,No,1,Rural,medium,Y
+249,Male,Yes,0,Graduate,No,1,Rural,low,Y
+250,Male,Yes,2,Graduate,No,0,Semiurban,medium,N
+251,Male,Yes,2,Graduate,No,1,Urban,low,Y
+252,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+253,Male,Yes,1,Graduate,No,1,Semiurban,medium,Y
+254,Female,Yes,1,Graduate,No,1,Urban,medium,Y
+255,Female,No,0,Graduate,No,1,Rural,medium,N
+256,Male,Yes,1,Graduate,No,1,Urban,low,N
+257,Male,Yes,0,Not Graduate,No,0,Urban,low,N
+258,Female,No,0,Graduate,No,1,Rural,medium,Y
+259,Male,Yes,1,Graduate,No,1,Urban,low,Y
+260,Male,No,0,Graduate,No,1,Rural,medium,Y
+261,Male,No,0,Not Graduate,No,1,Urban,low,N
+262,Female,No,0,Graduate,No,1,Rural,low,Y
+263,Female,No,0,Graduate,No,0,Urban,low,N
+264,Male,No,0,Graduate,No,1,Rural,high,N
+265,Female,No,0,Graduate,No,1,Semiurban,low,Y
+266,Male,No,0,Not Graduate,No,1,Semiurban,low,Y
+267,Female,No,0,Graduate,No,1,Rural,low,Y
+268,Male,Yes,1,Not Graduate,No,1,Urban,low,Y
+269,Male,Yes,2,Graduate,No,1,Semiurban,low,Y
+270,Male,Yes,1,Graduate,Yes,1,Rural,high,N
+271,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+272,Male,Yes,3+,Graduate,No,1,Semiurban,medium,Y
+273,Male,Yes,2,Not Graduate,No,1,Rural,low,Y
+274,Male,Yes,3+,Graduate,No,1,Rural,high,Y
+275,Male,Yes,1,Graduate,Yes,0,Rural,medium,N
+276,Male,No,0,Graduate,No,0,Rural,medium,Y
+277,Male,Yes,0,Graduate,Yes,1,Semiurban,medium,Y
+278,Female,Yes,0,Graduate,No,1,Urban,medium,N
+279,Female,No,0,Graduate,No,1,Urban,low,Y
+280,Male,No,1,Graduate,No,1,Urban,medium,Y
+281,Male,No,0,Graduate,No,1,Semiurban,low,Y
+282,Male,Yes,2,Graduate,Yes,1,Rural,low,Y
+283,Female,No,3+,Not Graduate,No,0,Urban,low,N
+284,Female,No,0,Graduate,No,1,Semiurban,medium,Y
+285,Male,Yes,3+,Not Graduate,No,1,Rural,low,N
+286,Female,No,0,Graduate,No,1,Rural,low,N
+287,Male,Yes,1,Not Graduate,No,1,Urban,medium,Y
+288,Male,Yes,3+,Not Graduate,No,1,Semiurban,low,Y
+289,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+290,Male,Yes,2,Not Graduate,No,1,Urban,low,Y
+291,Male,Yes,0,Graduate,No,1,Rural,low,Y
+292,Male,Yes,0,Graduate,No,1,Semiurban,medium,Y
+293,Male,No,0,Graduate,No,1,Rural,medium,N
+294,Male,Yes,3+,Graduate,No,1,Rural,low,Y
+295,Female,Yes,0,Graduate,Yes,0,Rural,medium,N
+296,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+297,Male,Yes,2,Graduate,No,1,Rural,medium,Y
+298,Male,Yes,1,Graduate,No,1,Urban,low,N
+299,Male,Yes,0,Not Graduate,No,0,Urban,low,N
+300,Male,Yes,3+,Graduate,No,1,Semiurban,medium,Y
+301,Female,No,1,Graduate,No,1,Semiurban,medium,N
+302,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+303,Male,Yes,0,Graduate,No,1,Urban,medium,Y
+304,Male,No,0,Graduate,Yes,1,Rural,medium,Y
+305,Male,No,0,Not Graduate,No,1,Rural,medium,N
+306,Male,No,0,Graduate,No,1,Semiurban,low,N
+307,Male,No,0,Graduate,No,0,Rural,medium,N
+308,Male,Yes,1,Graduate,No,1,Semiurban,medium,Y
+309,Male,Yes,0,Graduate,No,1,Rural,high,N
+310,Female,No,0,Graduate,Yes,1,Semiurban,high,Y
+311,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+312,Male,Yes,2,Graduate,Yes,1,Rural,medium,Y
+313,Male,No,1,Graduate,No,0,Urban,low,N
+314,Male,Yes,0,Graduate,No,1,Urban,medium,Y
+315,Male,Yes,3+,Graduate,No,1,Rural,medium,Y
+316,Male,No,0,Graduate,No,1,Urban,low,N
+317,Male,Yes,2,Graduate,No,1,Urban,medium,Y
+318,Male,No,0,Graduate,No,1,Semiurban,medium,Y
+319,Female,No,0,Graduate,No,1,Urban,medium,Y
+320,Male,No,0,Graduate,Yes,1,Urban,medium,Y
+321,Male,Yes,2,Graduate,No,1,Urban,medium,N
+322,Male,No,0,Not Graduate,No,1,Semiurban,low,Y
+323,Male,Yes,0,Not Graduate,No,0,Urban,low,N
+324,Male,Yes,0,Graduate,No,1,Urban,low,Y
+325,Male,Yes,0,Graduate,No,1,Rural,medium,Y
+326,Male,No,3+,Graduate,No,1,Rural,medium,Y
+327,Male,Yes,3+,Graduate,No,1,Rural,medium,Y
+328,Male,Yes,2,Not Graduate,No,1,Semiurban,low,Y
+329,Male,Yes,2,Graduate,No,1,Urban,low,Y
+330,Female,No,0,Graduate,No,0,Urban,low,N
+331,Male,Yes,0,Graduate,No,1,Urban,low,Y
+332,Male,No,0,Not Graduate,No,1,Rural,low,Y
+333,Female,No,0,Graduate,No,0,Semiurban,low,N
+334,Male,Yes,2,Not Graduate,No,0,Urban,low,N
+335,Male,No,0,Not Graduate,No,1,Rural,low,N
+336,Male,No,0,Graduate,No,1,Semiurban,low,Y
+337,Female,No,0,Not Graduate,No,1,Semiurban,low,Y
+338,Female,No,0,Graduate,Yes,1,Rural,medium,N
+339,Female,No,0,Graduate,No,1,Semiurban,medium,Y
+340,Male,Yes,0,Not Graduate,No,1,Urban,low,Y
+341,Female,No,0,Not Graduate,No,1,Rural,low,Y
+342,Male,Yes,1,Graduate,No,0,Semiurban,medium,N
+343,Male,Yes,3+,Graduate,No,0,Rural,high,N
+344,Female,No,1,Not Graduate,Yes,1,Semiurban,low,N
+345,Male,Yes,0,Not Graduate,No,0,Rural,medium,N
+346,Male,Yes,0,Not Graduate,No,1,Rural,low,Y
+347,Female,Yes,0,Not Graduate,No,0,Semiurban,low,N
+348,Female,No,0,Graduate,No,1,Urban,low,Y
+349,Female,No,1,Graduate,No,1,Urban,low,N
+350,Male,Yes,2,Graduate,Yes,1,Urban,low,N
+351,Male,Yes,0,Graduate,No,1,Rural,low,Y
+352,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+353,Male,Yes,0,Graduate,No,1,Rural,medium,Y
+354,Female,No,0,Not Graduate,No,0,Urban,low,N
+355,Male,Yes,0,Graduate,No,1,Urban,low,Y
+356,Male,Yes,1,Graduate,No,0,Urban,medium,N
+357,Male,Yes,0,Graduate,No,1,Semiurban,high,Y
+358,Male,Yes,0,Graduate,No,1,Rural,low,Y
+359,Female,No,1,Not Graduate,No,1,Rural,medium,N
+360,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+361,Male,Yes,0,Graduate,No,1,Rural,low,Y
+362,Male,No,0,Not Graduate,No,1,Urban,low,Y
+363,Female,No,1,Graduate,Yes,1,Semiurban,medium,Y
+364,Male,No,0,Graduate,No,0,Rural,medium,N
+365,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+366,Male,No,0,Graduate,No,1,Urban,low,Y
+367,Male,No,0,Graduate,No,1,Semiurban,low,Y
+368,Male,Yes,0,Graduate,No,1,Urban,low,Y
+369,Male,No,0,Graduate,Yes,0,Urban,high,N
+370,Female,Yes,0,Not Graduate,Yes,1,Rural,medium,Y
+371,Male,No,0,Graduate,No,1,Semiurban,low,Y
+372,Male,Yes,0,Graduate,No,1,Rural,medium,Y
+373,Male,No,3+,Not Graduate,No,1,Semiurban,medium,Y
+374,Male,No,1,Graduate,No,1,Semiurban,high,Y
+375,Male,Yes,1,Graduate,Yes,1,Rural,low,Y
+376,Male,Yes,2,Not Graduate,No,1,Rural,medium,Y
+377,Male,Yes,2,Graduate,No,0,Rural,low,N
+378,Male,Yes,2,Not Graduate,No,0,Rural,low,N
+379,Male,Yes,0,Graduate,No,0,Rural,low,N
+380,Male,Yes,0,Graduate,No,0,Rural,low,Y
+381,Male,No,0,Graduate,Yes,1,Semiurban,medium,Y
+382,Male,Yes,2,Graduate,No,1,Semiurban,low,Y
+383,Male,Yes,0,Graduate,No,1,Urban,medium,Y
+384,Male,Yes,0,Graduate,No,1,Urban,low,N
+385,Male,No,2,Graduate,No,1,Rural,medium,Y
+386,Male,Yes,0,Graduate,No,1,Semiurban,medium,N
+387,Male,Yes,3+,Graduate,No,1,Urban,medium,Y
+388,Male,Yes,0,Graduate,No,1,Rural,low,Y
+389,Male,No,0,Graduate,No,0,Semiurban,medium,N
+390,Male,No,0,Graduate,No,1,Rural,medium,Y
+391,Male,Yes,3+,Not Graduate,No,0,Urban,low,N
+392,Male,Yes,0,Graduate,No,1,Urban,medium,N
+393,Male,Yes,1,Graduate,Yes,1,Semiurban,low,Y
+394,Male,Yes,1,Not Graduate,No,0,Rural,low,N
+395,Male,Yes,3+,Graduate,No,1,Semiurban,medium,Y
+396,Male,No,2,Graduate,No,1,Rural,medium,Y
+397,Male,Yes,2,Graduate,Yes,1,Rural,high,Y
+398,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+399,Male,Yes,1,Graduate,Yes,1,Semiurban,high,Y
+400,Male,Yes,2,Graduate,No,1,Urban,low,N
+401,Female,No,0,Not Graduate,No,1,Rural,medium,Y
+402,Male,Yes,3+,Not Graduate,No,1,Rural,low,Y
+403,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+404,Male,Yes,0,Graduate,No,1,Semiurban,high,Y
+405,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+406,Male,Yes,1,Not Graduate,No,1,Rural,low,Y
+407,Male,No,2,Graduate,No,0,Rural,low,N
+408,Male,Yes,1,Graduate,No,1,Urban,high,N
+409,Male,Yes,2,Graduate,Yes,1,Semiurban,medium,Y
+410,Male,No,0,Graduate,No,1,Urban,low,N
+411,Male,No,0,Not Graduate,No,1,Rural,low,Y
+412,Female,No,0,Not Graduate,Yes,1,Semiurban,high,Y
+413,Male,Yes,0,Graduate,No,0,Rural,low,N
+414,Female,Yes,1,Graduate,No,1,Semiurban,low,Y
+415,Male,Yes,0,Not Graduate,No,1,Rural,low,Y
+416,Male,Yes,1,Graduate,Yes,1,Semiurban,low,Y
+417,Male,No,0,Graduate,No,0,Rural,medium,N
+418,Female,No,0,Graduate,No,1,Rural,low,Y
+419,Female,No,0,Graduate,No,1,Semiurban,low,Y
+420,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+421,Male,Yes,0,Not Graduate,No,1,Semiurban,low,Y
+422,Male,Yes,2,Graduate,No,1,Rural,low,Y
+423,Male,Yes,0,Graduate,Yes,1,Urban,low,Y
+424,Female,No,1,Graduate,No,1,Urban,high,Y
+425,Male,No,0,Not Graduate,No,1,Rural,low,N
+426,Male,Yes,1,Graduate,No,1,Semiurban,medium,Y
+427,Male,Yes,2,Graduate,No,1,Urban,low,Y
+428,Male,Yes,0,Graduate,No,1,Semiurban,low,N
+429,Male,No,0,Graduate,No,1,Rural,medium,N
+430,Male,Yes,3+,Graduate,No,1,Rural,low,Y
+431,Female,Yes,2,Graduate,No,1,Semiurban,low,Y
+432,Male,No,0,Graduate,No,1,Semiurban,medium,N
+433,Female,No,0,Not Graduate,No,1,Rural,low,N
+434,Male,Yes,2,Not Graduate,No,1,Semiurban,low,Y
+435,Male,No,0,Graduate,No,1,Semiurban,low,Y
+436,Male,Yes,3+,Graduate,Yes,1,Rural,medium,Y
+437,Male,Yes,2,Graduate,Yes,1,Rural,medium,Y
+438,Male,No,0,Graduate,No,1,Semiurban,medium,N
+439,Male,Yes,2,Graduate,Yes,1,Rural,high,Y
+440,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+441,Male,Yes,1,Not Graduate,No,0,Semiurban,medium,Y
+442,Male,No,1,Not Graduate,No,1,Semiurban,low,Y
+443,Male,No,0,Not Graduate,No,1,Semiurban,medium,Y
+444,Male,Yes,3+,Graduate,No,1,Urban,medium,Y
+445,Male,No,2,Graduate,No,0,Rural,low,N
+446,Female,No,0,Not Graduate,Yes,1,Urban,high,Y
+447,Male,Yes,0,Graduate,No,1,Urban,medium,Y
+448,Male,No,2,Graduate,No,1,Semiurban,low,Y
+449,Male,Yes,0,Not Graduate,No,1,Rural,low,N
+450,Male,Yes,3+,Graduate,No,1,Rural,medium,Y
+451,Female,Yes,1,Graduate,No,1,Semiurban,medium,Y
+452,Female,No,0,Graduate,No,0,Semiurban,low,N
+453,Male,Yes,1,Not Graduate,No,1,Urban,low,Y
+454,Male,Yes,0,Graduate,No,1,Rural,low,Y
+455,Male,No,0,Not Graduate,No,1,Semiurban,low,N
+456,Male,No,0,Graduate,No,1,Rural,low,Y
+457,Female,No,0,Graduate,No,0,Semiurban,medium,N
+458,Male,Yes,0,Graduate,No,1,Rural,low,Y
+459,Male,Yes,2,Graduate,Yes,0,Rural,medium,N
+460,Male,Yes,1,Not Graduate,No,1,Rural,low,Y
+461,Male,Yes,1,Graduate,No,1,Urban,low,Y
+462,Male,Yes,0,Not Graduate,No,0,Urban,low,N
+463,Male,Yes,0,Graduate,No,0,Rural,low,N
+464,Male,Yes,1,Graduate,No,1,Semiurban,medium,Y
+465,Male,Yes,3+,Graduate,Yes,1,Semiurban,high,Y
+466,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+467,Female,Yes,0,Graduate,No,1,Semiurban,medium,Y
+468,Male,Yes,2,Not Graduate,No,1,Semiurban,low,Y
+469,Female,Yes,1,Graduate,Yes,1,Semiurban,high,Y
+470,Male,Yes,0,Graduate,No,1,Rural,medium,Y
+471,Male,No,0,Not Graduate,Yes,1,Semiurban,medium,Y
+472,Male,Yes,2,Graduate,No,0,Urban,medium,N
+473,Male,No,0,Graduate,No,1,Urban,low,Y
+474,Male,Yes,3+,Graduate,No,0,Rural,low,N
+475,Female,No,0,Graduate,No,1,Urban,low,N
+476,Male,Yes,0,Graduate,No,0,Urban,low,N
+477,Male,Yes,1,Graduate,No,1,Urban,low,Y
+478,Male,Yes,2,Graduate,No,1,Urban,high,Y
+479,Male,Yes,2,Not Graduate,No,1,Semiurban,medium,N
+480,Male,Yes,3+,Graduate,No,1,Semiurban,medium,N
+481,Male,Yes,2,Graduate,No,1,Urban,low,Y
+482,Male,No,0,Graduate,No,1,Urban,low,Y
+483,Male,Yes,1,Graduate,No,1,Rural,low,Y
+484,Male,Yes,2,Graduate,No,1,Semiurban,medium,Y
+485,Male,No,0,Graduate,No,1,Urban,low,N
+486,Female,Yes,0,Graduate,No,1,Semiurban,low,Y
+487,Male,Yes,1,Graduate,No,0,Rural,low,N
+488,Male,Yes,1,Graduate,No,1,Rural,medium,N
+489,Male,Yes,0,Graduate,No,1,Urban,low,Y
+490,Female,No,0,Not Graduate,No,1,Semiurban,low,Y
+491,Male,Yes,2,Graduate,Yes,0,Semiurban,low,N
+492,Male,Yes,0,Graduate,No,1,Semiurban,low,Y
+493,Male,Yes,2,Graduate,Yes,1,Semiurban,medium,N
+494,Male,Yes,0,Graduate,No,1,Rural,low,Y
+495,Male,Yes,0,Graduate,Yes,1,Urban,high,Y
+496,Male,No,0,Not Graduate,No,1,Rural,low,Y
+497,Male,Yes,2,Not Graduate,Yes,1,Rural,medium,N
+498,Male,Yes,0,Graduate,Yes,1,Rural,medium,Y
+499,Male,Yes,2,Graduate,No,1,Urban,medium,Y
+500,Male,Yes,3+,Graduate,No,1,Urban,medium,Y
+501,Male,No,0,Graduate,No,1,Rural,low,Y
+502,Female,Yes,1,Graduate,No,1,Semiurban,high,Y
+503,Male,Yes,0,Not Graduate,No,1,Urban,low,N
+504,Male,Yes,1,Graduate,No,1,Semiurban,low,Y
+505,Male,Yes,2,Not Graduate,No,1,Rural,low,Y
+506,Male,Yes,0,Graduate,No,1,Rural,low,Y
+507,Female,No,0,Graduate,No,1,Rural,low,Y
+508,Male,Yes,3+,Graduate,No,1,Rural,medium,Y
+509,Male,Yes,1,Graduate,No,1,Urban,medium,Y
+510,Male,Yes,2,Graduate,No,1,Urban,medium,Y
+511,Female,No,0,Graduate,Yes,0,Semiurban,medium,N

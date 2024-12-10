@@ -1,0 +1,254 @@
+ 
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+	<title>Loan Approval </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Home Loan Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="../static/css/styl.css" rel='stylesheet' type='text/css' />
+	<!-- font-awesome icons -->
+	<link href="../static/css/fontawesome-all.min.css" rel="stylesheet">
+	<!-- //Custom Theme files -->
+	<!-- online fonts -->
+	<!-- titles -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- body -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+	
+	 <style>
+            
+                  
+            
+            h1 {
+                color:#000000;
+            }
+			b{
+			color: #ff69b4;
+			}
+        </style>
+</head>
+
+<body>
+	
+	<!-- header -->
+	<header>
+	<div class="top">
+			 
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<h1>
+					<a class="navbar-brand text-capitalize" href="index.html">
+						Loan Approval
+					</a>
+				</h1>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					 <ul class="navbar-nav text-center  ml-lg-auto">
+						<li class="nav-item   mr-3">
+							<a class="nav-link" href="{{url_for('index')}}">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link" href="{{url_for('login')}}">Login</a>
+							
+						</li>
+						<li class="nav-item  mr-3">
+							<a class="nav-link" href="{{url_for('upload')}}">Upload</a>
+							
+						</li>
+							<li class="nav-item active mr-3">
+							<a class="nav-link" href="{{url_for('prediction')}}">Prediction</a>
+							
+						</li>
+							<li class="nav-item mr-3">
+							<a class="nav-link" href="{{url_for('performance')}}">performance_analysis</a>
+							
+						</li>
+						 
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- //header -->
+	<!-- banner -->
+	<section class="banner-1">
+	</section>
+	<!-- //banner -->
+	<!--/contact-->
+	<section class="contact py-5">
+		<div class="container py-md-4 mt-md-3">
+
+
+<div class="col-25">
+                        <center><h1>Loan Approval prediction</h1></center>
+                    </div>
+					
+         <div class="col-md-12 col-sm-12 col-xs-12" style="margin-left:50px;">
+                         <form action="{{ url_for('predict')}}"method="post">
+		 
+			 
+		
+		 <div class="span5">
+				<div class="control-group">
+				    
+					<center><label class="control-label" for="inputMessage"><b></b></label></br></center>
+				    </br>
+					 
+					 <div class="controls">
+			 
+			       <center><b>Gender:</b>    <select   type="text"  name="Gender" required="required" placeholder="Gender" width="200" style="width: 200px"></center>
+							<option value="0">Female</option>
+						<option value="1">Male</option>
+					  
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   </div> 
+				   	   </br>
+					    <div class="controls">
+			 
+			       <center><b>Married:</b>    <select   type="text"  name="Married" required="required" placeholder="Married" width="200" style="width: 200px"></center>
+							<option value="0">No</option>
+						<option value="1">Yes</option>
+					  
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;
+				   </div>
+ 	   </br>
+		    <div class="controls">
+			 
+			       <center><b>Education:</b>    <select   type="text"  name="Education" required="required" placeholder="Education" width="200" style="width: 200px"></center>
+							<option value="0">Not Graduate</option>
+						<option value="1">Graduate</option>
+					  
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   </div>
+ 	   </br>	   
+     <div class="controls">
+			 
+			       <center><b>Self_Employed:</b>    <select   type="text"  name="Self_Employed" required="required" placeholder="Self_Employed" width="200" style="width: 200px"></center>
+							<option value="0">No</option>
+						<option value="1">Yes</option>
+					  
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   </div>
+ 	   </br>	
+     <div class="controls">
+			 
+			       <center><b>Credit_History:</b>    <select   type="text"  name="Credit_History" required="required" placeholder="Credit_History" width="200" style="width: 200px"></center>
+							<option value="0">No</option>
+						<option value="1">Yes</option>
+					  
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   </div>
+ 	   </br>
+     <div class="controls">
+			 
+			       <center><b>Property_Area:</b>    <select   type="text"  name="Property_Area" required="required" placeholder="Property_Area" width="200" style="width: 200px"></center>
+							<option value="0">Urban</option>
+						<option value="1">Rural</option>
+					  <option value="2">Semiurban</option>
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				   </div>
+ 	   </br>
+ 
+     <div class="controls">
+			 
+			       <center><b>Income:</b>    <select   type="text"  name="Income" required="required" placeholder="Income" width="200" style="width: 200px"></center>
+							<option value="0">Low</option>
+						<option value="1">Medium</option> 
+					  <option value="2">High</option>
+					</select> &nbsp;&nbsp;&nbsp 
+				   </div>	   
+				   	</br>   
+   <center>  <button type="submit" class="btn btn-primary">Predict </button></center>
+    </form></br>
+	</br>
+    	 <center><h1> Prediction is : {{ prediction_text }} </h1></center>
+  
+				</div>	 
+					 
+                </div>
+
+
+
+
+
+
+ 
+		</div>
+	</section>
+	<!--//contact-->
+<!--footer-->
+	<footer>
+		<div class="container py-md-4 mt-md-3">
+			<div class="row footer-top-w3layouts-agile py-5">
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					 
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					 
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					 
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					 
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!---->
+	 
+	<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Home Loan</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		 <div class="agileits-w3layouts-info">
+			<img src="images/g6.jpg" class="img-fluid" alt="" />
+			<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
+		</div>
+	</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //Modal -->
+<!-- js-->
+	<script src="../static/js/jquery-2.2.3.min.js"></script>
+<!-- js-->
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../static/js/bootstrap.js ">
+	</script>
+	<!-- //Bootstrap Core JavaScript -->
+</body>
+</html>
